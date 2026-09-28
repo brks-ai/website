@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whitelist · briks.fun</title>
+  <meta name="description" content="Claim your spot on the briks.fun whitelist: pixel cats and dogs, built in bricks on Robinhood Chain.">
+  <meta property="og:title" content="briks.fun whitelist">
+  <meta property="og:description" content="Pixel cats and dogs, built in bricks on Robinhood Chain. Claim your spot.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="./favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400..600&family=Geist+Mono:wght@500&display=swap">
+  <script type="module" crossorigin src="./assets/index-HXFMb04y.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Bu8xRvO3.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="https://briks.fun">
+      <img src="./logo-192.png" alt="">
+      <span>briks<i class="dot">.</i><i class="fun">fun</i></span>
+    </a>
+  </header>
+
+  <main class="card">
+    <section class="stage">
+      <canvas id="figure" aria-label="Pixel pets built in bricks"></canvas>
+      <p class="caption" id="caption"></p>
+      <div class="dots" id="dots"></div>
+    </section>
+
+    <section class="panel">
+      <p class="eyebrow">Whitelist</p>
+      <h1>Claim your <span class="accent">brick.</span></h1>
+      <p class="lead">Do the steps on X, then drop your wallet and username.</p>
+
+      <ol class="steps" id="steps"></ol>
+
+      <form id="form" novalidate>
+        <label class="field">
+          <span>Wallet address</span>
+          <input name="wallet" autocomplete="off" spellcheck="false" placeholder="0x…" required>
+        </label>
+        <label class="field">
+          <span>X username</span>
+          <input name="x" autocomplete="off" spellcheck="false" placeholder="@yourname" required>
+        </label>
+        <!-- honeypot: hidden from people, filled by bots -->
+        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="error" id="error" role="alert"></p>
+        <button class="brick submit" type="submit" id="submit" disabled>Join the whitelist</button>
+        <p class="hint" id="hint"></p>
+      </form>
+
+      <div class="done" id="done" hidden>
+        <p class="eyebrow">You're in</p>
+        <h2 id="done-title">See you at the mint.</h2>
+        <p class="lead" id="done-text"></p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
