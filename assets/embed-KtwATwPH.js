@@ -1,1 +1,0 @@
-import{o as e}from"./utils-B5rKlbru.js";import{n as t}from"./index-lsWZGaRG.js";import{t as n}from"./FigureViewer-Crwl9Vsz.js";var r=e(),i=()=>{let e=t.useLoaderData();return(0,r.jsx)(n,{gridHex:e.gridHex,size:e.size,swaps:e.swaps,label:`#${e.id}`,className:`h-screen rounded-none`,animate:!1})};export{i as component};
