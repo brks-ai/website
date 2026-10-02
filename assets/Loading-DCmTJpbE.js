@@ -1,0 +1,1 @@
+import{o as e,t}from"./utils-B5rKlbru.js";import{t as n}from"./loader-circle-Bco4ueZZ.js";var r=e();function i({className:e,children:i=`Loading…`}){return(0,r.jsxs)(`p`,{className:t(`flex items-center gap-2 text-fog`,e),children:[(0,r.jsx)(n,{className:`size-4 animate-spin`}),` `,i]})}export{i as t};

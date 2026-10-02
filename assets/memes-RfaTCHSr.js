@@ -1,0 +1,1 @@
+import{_ as e,c as t,h as n,l as r,n as i,o as a}from"./src-D3BIi87D.js";var o=i.map(({title:i,pet:o})=>{let s=a(o);return{title:i,name:r(o),species:o.species,dna:`0x${s.toString(16)}`,gridHex:e(n(t(s)))}}),s=[`Such Wow`,`Laser Maxi`,`Stonks`,`Cheezburger`,`Pug Life`,`Wif Hat`].map(e=>o.find(t=>t.title===e));export{o as n,s as t};

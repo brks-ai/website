@@ -1,0 +1,1 @@
+import{n as e,t}from"./public-ehpFXdzJ.js";function n(n){let{key:r=`public`,name:i=`Public Client`}=n;return e({...n,key:r,name:i,type:`publicClient`}).extend(t)}export{n as t};

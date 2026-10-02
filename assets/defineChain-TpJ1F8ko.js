@@ -1,0 +1,1 @@
+function e(e){let t={formatters:void 0,fees:void 0,serializers:void 0,...e};function n(e){return t=>{let r=typeof t==`function`?t(e):t,i={...e,...r};return Object.assign(i,{extend:n(i)})}}return Object.assign(t,{extend:n(t)})}export{e as t};
